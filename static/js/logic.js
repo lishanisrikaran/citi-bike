@@ -60,4 +60,4 @@ function createMarkers(response) {
 }
 
 // Perform an API call to the Citi Bike API to get the station information. Call createMarkers when it completes.
-d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_information.json").then(createMarkers);
+d3.json("data/data.json").then(createMarkers);
